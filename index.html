@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="shortcut icon" href="./ASSETS/favicon.png" type="image/x-icon">
+  <title id="title">Home</title>
+</head>
+
+<nav class="navbar navbar-expand-lg bg-dark fs-5 fw-bold bg-info ">
+  <div class="container-fluid bg-info  bg-dark">
+    <img src="./ASSETS/Logo Amazing Events.png" width="220" height="75" alt="logo" id="#LOGO">
+    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" id="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./upcomingevent.html">Upcoming Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pastevent.html">Past Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./stats.html">Stats</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--carrousel-->
+<section id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active center-block text-center" id="imagenes">
+      <img src="./ASSETS/carousel11.jpg" class="d-block w-100  " id="imagencont" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./ASSETS/carousel2.jpg" class="d-block w-100 " alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./ASSETS/carousel3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <section>
+    <h2 class="text-light bg-dark text-center">Home</h2>
+  </section>
+</section>
+<!--  form Y search-->
+<section class="formysearch d-flex justify-content-around flex-wrap" id="fys">
+  <section class="containerCheckbox" id="containerCheck">
+
+  </section>
+
+  <!--search-->
+  <nav class="navbar bg-light">
+    <div class="container-fluid">
+      <form id="search" class="d-flex" role="search">
+        <input id="searchId" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-danger" type="submit" id="lupita"><img src="./ASSETS/lupa.png" width="20px"
+            alt="lupa"></button>
+      </form>
+    </div>
+  </nav>
+</section>
+
+
+<!--  CONTENEDORES-->
+<div class="contenedor-padre" id="main-content">
+</div>
+<!--  FOOTER-->
+<footer class="">
+  <nav class="navbar bg-black d-flex">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./ASSETS/png instagram.jpg" width="65" height="65" alt="">
+        <img src="./ASSETS/convertir png (1).png" width="65" height="65" alt="">
+        <img src="./ASSETS/png_whatsapp.jpg" width="65" height="65 alt=container">
+      </a>
+      <h5 class="text-white">COHORT 36</h5>
+    </div>
+  </nav>
+</footer>
+
+
+<script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+  </script>
+<script src="./JS/data.js"></script>
+<script src="./JS/index.js"></script>
+</body>
+
+</html>
